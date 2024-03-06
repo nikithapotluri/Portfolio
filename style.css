@@ -194,24 +194,30 @@ a{
     transform: translate(10px, 10px);
 }
 
-.button{
+.buttontop{
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
 }
 
-.resume {
+.button a{
     color: rgb(1, 1, 15);
+    text-decoration: none;
+}
+
+.button{
     border: 5px solid white;
     background-color: white;
-    text-decoration: none;
-    display: inline-block;
     padding: 10px;
     border-radius: 20px;
 }
 
-.resume:hover{
+.button:hover{
+    color: white;
     border: 5px solid white;
     background-color: rgb(1, 1, 15);
+}
+
+.button a:hover{
     color: white;
 }
