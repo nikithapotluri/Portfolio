@@ -216,3 +216,75 @@ a{
     border-color: white;
     background-color: rgb(1, 1, 15);
 }
+
+@media screen and (max-width: 576px) {
+    .box {
+      padding: 40px;
+      padding-top: 80px;
+      padding-left: 40px;
+    }
+  
+    .table {
+      padding: 30px;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+  
+    .exp, .por, .skills, .projects {
+      padding: 30px;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+  
+    .button a {
+      padding: 8px 16px;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 991px) {
+    .box {
+      padding: 60px;
+      padding-top: 100px;
+      padding-left: 60px;
+    }
+  
+    .table {
+      padding: 40px;
+      margin-left: 40px;
+      margin-right: 40px;
+    }
+  
+    .exp, .por, .skills, .projects {
+      padding: 40px;
+      margin-left: 40px;
+      margin-right: 40px;
+    }
+  
+    .button a {
+      padding: 10px 20px;
+    }
+  }
+
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .box {
+      padding: 80px;
+      padding-top: 120px;
+      padding-left: 80px;
+    }
+  
+    .table {
+      padding: 50px;
+      margin-left: 50px;
+      margin-right: 50px;
+    }
+  
+    .exp, .por, .skills, .projects {
+      padding: 50px;
+      margin-left: 50px;
+      margin-right: 50px;
+    }
+  
+    .button a {
+      padding: 12px 24px;
+    }
+  }
